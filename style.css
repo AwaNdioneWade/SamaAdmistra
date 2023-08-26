@@ -29,7 +29,7 @@ body{
 
 .form-control, .input-group-text{
     border-radius: 15px;
-    background-color: aliceblue;
+    background-color: rgba(222, 241, 248, 0.699);
 }
 
 .sidebar{
@@ -51,6 +51,7 @@ body{
 
 .nav-link .active{
     color: #fff;
+    background-color: rgb(37, 150, 190);
 }
 
 
