@@ -1,0 +1,76 @@
+.diplayFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.diplayNone{
+    display: none;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.entete{
+    background-color: #fff;
+}
+.logo{
+    width: 90px;
+}
+
+.navbar-toggler{
+    font-size: 30px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.form-control, .input-group-text{
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.sidebar{
+    font-size: 18px;
+    background-color: rgb(3, 3, 39);
+}
+.nav-link:hover{
+    color: #fff;
+}
+.nav-link i{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link .active{
+    color: #fff;
+}
+
+
+
+.residence, .mariage{
+    margin-left: 5px;
+}
+
+.mariage, .deces{
+    margin-left: 20px;
+}
+
+.naissance{
+    margin-left: 25px;
+}
+
+/* .texte2, .texte3, .texte4, .texte5, .texte6{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} */
