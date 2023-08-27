@@ -4,6 +4,9 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    background-color: #fff;
+    color: rgb(37, 150, 190);
+    border-radius: 10px;
 }
 
 .diplayNone{
@@ -34,7 +37,7 @@ body{
 
 .sidebar{
     font-size: 18px;
-    background-color: rgb(3, 3, 39);
+    background-color: rgb(37, 150, 190);
 }
 .nav-link:hover{
     color: #fff;
@@ -49,9 +52,9 @@ body{
     cursor: pointer;
 }
 
-.nav-link .active{
-    color: #fff;
-    background-color: rgb(37, 150, 190);
+.nav-item .Active{
+    color: rgb(37, 150, 190);
+    background-color: #fff
 }
 
 

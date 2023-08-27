@@ -8,6 +8,7 @@ let residence = document.querySelector('.residence')
 let mariage = document.querySelector('.mariageLi')
 let certificatDeces = document.querySelector('.certificatDeces')
 let extraitNaissanace = document.querySelector('.extraitNaissanace')
+let papierExtrait = document.querySelector('.papierExtrait')
 let Certificat = document.querySelector('.Certificat')
 let civil = document.querySelector('.civil')
 texte.classList.add('diplayNone')
@@ -53,7 +54,7 @@ certificatDeces.addEventListener('click', function () {
 extraitNaissanace.addEventListener('click', function () {
     if (texte6.classList.contains('diplayFlex')) {
         texte6.classList.remove('diplayFlex')
-        texte6.classList.add('diplayNone')        
+        texte6.classList.add('diplayNone')       
     }else{
         texte6.classList.add('diplayFlex')
         texte6.classList.remove('diplayNone')
@@ -79,43 +80,3 @@ civil.addEventListener('click', function () {
         texte4.classList.remove('diplayNone')
     }
 })
-// residence.addEventListener('mouseout', function () {
-//     texte.style.display = 'none'
-// })
-
-// mariage.addEventListener('click', function () {
-//     texte2.style.display = 'flex'
-// })
-// mariage.addEventListener('mouseout', function () {
-//     texte2.style.display = 'none'
-// })
-
-// Certificat.addEventListener('click', function () {
-//     texte3.style.display = 'flex'
-//     civil.style.display = 'none'
-// })
-// Certificat.addEventListener('dblclick', function () {
-//     texte3.style.display = 'none'
-//     civil.style.display = 'flex'
-// })
-
-// Certificat.addEventListener('mouseout', function () {
-//     texte3.style.display = 'none'
-//     texte2.style.display = 'flex'
-//     civil.style.display = 'flex'
-// })
-
-// civil.addEventListener('click', function () {
-//     texte4.style.display = 'flex'
-//     Certificat.style.display = 'none'
-// })
-// civil.addEventListener('dblclick', function () {
-//     texte4.style.display = 'none'
-//     Certificat.style.display = 'flex'
-// })
-
-// civil.addEventListener('mouseout', function () {
-//     texte3.style.display = 'none'
-//     texte2.style.display = 'flex'
-//     Certificat.style.display = 'flex'
-// })

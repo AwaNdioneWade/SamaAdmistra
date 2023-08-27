@@ -1,10 +1,17 @@
 .accueil1{
-    background-image: url(accueil1.png);
+    background-image: url(accueil1.jpg);
     background-size: cover;
+}
+
+.apropos{
+    background-image: url(apropos.jpg);
+    background-size: cover;
+    height: 600px;
 }
 
 .statistique{
     background-color: rgb(37, 150, 190);
+    color: #fff;
     border-radius: 10px;
 }
 

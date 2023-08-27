@@ -28,7 +28,7 @@
             </script>
             <title>Sama Adminitratif</title>
             <link rel="stylesheet" href="style.css">
-            <link rel="stylesheet" href="accueil.css">
+            <link rel="stylesheet" href="contact.css">
     </head>
 <body>
     <div class="container-fluid entete">
@@ -38,10 +38,30 @@
                     <!-- <yt-icon id="guide-icon" icon="yt-icons:menu" class="style-scope ytd-app"><svg style="height:24px; flex-shrink:0" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z" class="style-scope yt-icon"></path></g></svg></yt-icon> -->
                     <img src="logo.png" class="logo ms-4 my-2" width="120" alt="logo SamaAdmi">
                 </div>
+                <div class="col-md-6 col-lg-5 d-none d-md-flex align-items-center justify-content-center">
+                    <div class="input-group flex-nowrap col-10" style="width: 90%;" mt-3>
+                        <input type="text" class="form-control" placeholder="Rechercher">
+                        <button class="input-group-text">
+                            <yt-icon class="style-scope ytd-searchbox">
+                                <svg style="height:24px; flex-shrink:0" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                    <g class="style-scope yt-icon">
+                                        <path d="M20.87,20.17l-5.59-5.59C16.35,13.35,17,11.75,17,10c0-3.87-3.13-7-7-7s-7,3.13-7,7s3.13,7,7,7c1.75,0,3.35-0.65,4.58-1.71 l5.59,5.59L20.87,20.17z M10,16c-3.31,0-6-2.69-6-6s2.69-6,6-6s6,2.69,6,6S13.31,16,10,16z" class="style-scope yt-icon"></path>
+                                    </g>
+                            </svg></yt-icon>
+                        </button>
+                    </div>
+                    <div class="">
+                            <div class="yt-spec-button-shape-next__icon" aria-hidden="true"><yt-icon style="width: 24px; height: 24px;">
+                                <svg style="height:24px; flex-shrink:0" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                    <g class="style-scope yt-icon">
+                                        <path d="M12 3C10.34 3 9 4.37 9 6.07V11.93C9 13.63 10.34 15 12 15C13.66 15 15 13.63 15 11.93V6.07C15 4.37 13.66 3 12 3ZM18.5 12H17.5C17.5 15.03 15.03 17.5 12 17.5C8.97 17.5 6.5 15.03 6.5 12H5.5C5.5 15.24 7.89 17.93 11 18.41V21H13V18.41C16.11 17.93 18.5 15.24 18.5 12Z" class="style-scope yt-icon"></path>
+                                    </g>
+                                </svg>
+                                </yt-icon>
+                            </div>
+                    </div>
+                </div>
                 <ul class="nav col-lg-auto col-md-4 col-sm-9 col-8 d-flex justify-content-end align-items-end">
-                    <li>                        
-                        <input type="button" value="Rendez-vous">
-                    </li>
                     <li>
                         <a href="#" class="nav-link px-2">
                              <i class="fa-solid fa-bell text-dark"></i>
@@ -66,7 +86,7 @@
                     <div class="navbar-nav pe-3">
                         <ul class="nav nav-pills flex-column ">
                             <li class="nav-item mb-2">
-                            <a href="accueil.html" class="nav-link Active">
+                            <a href="accueil.html" class="nav-link">
                                 <i class="fa-solid fa-house"></i>
                                 <span class="ms-4">Accueil</span>
                             </a>
@@ -126,7 +146,7 @@
                                 </a>
                             </li>
                             <li class="nav-item mb-2">
-                                <a href="contact.html" class="nav-link">
+                                <a href="contact.html" class="nav-link Active">
                                     <i class="fa-solid fa-id-badge"></i>
                                     <span class="naissance">Contact</span>
                                 </a>
@@ -135,73 +155,31 @@
                     </div>
                 </div>
             </nav>
-            <div class="accueil1 col-12 col-md-6 col-lg-9">
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid mt-5">
-        <div class="row">
-            <div class="col-12 col-md-3 mb-5 py-3 me-md-5 offset-md-1 statistique">
-                <h1>+100</h1>
-                <p>Documents fournis par jour</p>
-            </div>
-            <div class="col-12 col-md-3 mb-5 py-3 ms-md-5 statistique">
-                <h1>+10</h1>
-                <p>Mairies en collaboration</p>
-            </div>
-            <div class="col-12 col-md-3 mb-5 py-3 ms-md-5 statistique">
-                <h1>+500</h1>
-                <p>Communautés</p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row my-5">
-            <div class="col-12 col-md-9 apropos"></div>
-            <div class="col-12 col-md-3 mairies">
-                <h3>Listes Mairies</h3>
-                <ul>
-                    <li>
-                        <p>Mairie Dakar</p>
-                        <i class="fa-solid fa-phone ms-4"></i>
-                    </li>
-                    <li>
-                        <p>Mairie Parcelle</p>
-                        <i class="fa-solid fa-phone ms-2"></i>
-                    </li>
-                    <li>
-                        <p>Mairie Ngor</p>
-                        <i class="fa-solid fa-phone ms-4"></i>
-                    </li>
-                    <li>
-                        <p>Mairie Ouakam</p>
-                        <i class="fa-solid fa-phone"></i>
-                    </li>
-                    <li>
-                        <p>Mairie Kaolack</p>
-                        <i class="fa-solid fa-phone"></i>
-                    </li>
-                    <li>
-                        <p>Mairie Dakar</p>
-                        <i class="fa-solid fa-phone ms-4"></i>
-                    </li>
-                    <li>
-                        <p>Mairie Parcelle</p>
-                        <i class="fa-solid fa-phone ms-2"></i>
-                    </li>
-                    <li>
-                        <p>Mairie Ngor</p>
-                        <i class="fa-solid fa-phone ms-4"></i>
-                    </li>
-                    <li>
-                        <p>Mairie Ouakam</p>
-                        <i class="fa-solid fa-phone"></i>
-                    </li>
-                    <li>
-                        <p>Mairie Kaolack</p>
-                        <i class="fa-solid fa-phone"></i>
-                    </li>
-                </ul>
+            <div class="col-12 col-md-6 col-lg-9">
+                <div class="container contact mt-5 py-5">
+                    <div class="row">
+                        <div class="col-12 offset-md-2 col-md-4">
+                            <label for="exampleFormControlInput1" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Votre nom*">
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <label for="exampleFormControlInput2" class="form-label">Prénom</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Votre prenom*">                        
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 offset-md-2 col-md-8">
+                            <label for="floatingInput">Addresse mail</label>
+                            <input type="email" class="form-control" id="floatingInput" placeholder="nom@exemple.com">
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 offset-md-2 col-md-8">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
